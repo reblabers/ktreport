@@ -1,0 +1,5 @@
+ktreport
+.gradle/
+.kotlin/
+.idea/
+build/

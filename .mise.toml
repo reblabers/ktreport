@@ -1,0 +1,8 @@
+[tools]
+go = "latest"
+
+[tasks.build]
+run = "go build -o ktreport ktreport.go"
+
+[tasks.main]
+run = "go build -o ktreport ktreport.go && ./ktreport"
