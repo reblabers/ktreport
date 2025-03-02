@@ -14,7 +14,7 @@ Therefore, there's a need to organize and provide only the necessary information
 2. Register the TestListener in kotlin resources
    - Specify the location from step 1
 3. Build ktreport with Go and place it in the repository root
-4. `./gradlew :test || ./ktreport`
+4. `./gradlew :test || ./ktreport` (or `./gradlew :test &> /dev/null || ./ktreport`)
 
 # How it works
 
